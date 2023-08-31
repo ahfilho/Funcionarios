@@ -3,6 +3,7 @@ package org.example;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
+//2 OK
 public class Funcionario extends Pessoa {
     public Funcionario(String nome, LocalDate dataNascimento, BigDecimal salario, String funcao) {
         super(nome, dataNascimento);
