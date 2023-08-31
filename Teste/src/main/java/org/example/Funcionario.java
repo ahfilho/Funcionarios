@@ -15,6 +15,10 @@ public class Funcionario extends Pessoa {
     private BigDecimal salario;
     private String funcao;
 
+    public Funcionario() {
+        super();
+    }
+
     public BigDecimal getSalario() {
         return salario;
     }
